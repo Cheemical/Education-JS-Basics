@@ -1,0 +1,71 @@
+@font-face {
+	src: url(../txt/Abel-Regular.ttf);
+	font-family: 'Abel-Regular';
+}
+
+
+.header {
+	width: 1375px;
+	height: 90px;
+	background-color: #7CFC00; 
+	color: #0000CD;
+	padding: 20px 15px;
+	font-size: 90px;
+	font-family: 'M PLUS 1p', sans-serif;
+	text-transform: uppercase;
+	
+}
+
+.links {
+	width: 1375px;
+	height: 15px;
+	background-color: #F5F3F0;
+	padding: 15px 15px;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #0000CD;
+	text-transform: uppercase;
+}
+
+.main {
+	width: 1405px;
+	height: 500px;
+	background-color: #BFD5C9; 
+	background-image: url(../img/izimg.jpeg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+p {
+	font-family: 'M PLUS 1p', sans-serif;
+	font-size: 100px;
+	color: #7CFC00;
+	padding-top: 20px;
+	padding-right: 15px;
+	text-align: right;
+}
+
+.textizakaya {
+	width: 1390px;
+	height: 400px;
+	background-color: #0000CD;
+	font-family: 'Abel-Regular', sans-serif;
+	text-transform: uppercase;
+	color: #7CFC00;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 35px;
+	font-size: 40px;
+	
+}
+
+.copyright {
+	width: 1405px;
+	background-color: #F5F3F0;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #0000CD;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+    padding: 15px 0px 15px 0px;
+}
