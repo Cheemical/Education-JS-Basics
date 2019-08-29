@@ -7,6 +7,7 @@
 .header {
 	width: 1375px;
 	height: 90px;
+	margin: auto;
 	background-color: #7CFC00; 
 	color: #0000CD;
 	padding: 20px 15px;
@@ -19,6 +20,7 @@
 .links {
 	width: 1375px;
 	height: 15px;
+	margin: auto;
 	background-color: #F5F3F0;
 	padding: 15px 15px;
 	font-family: 'M PLUS 1p', sans-serif;
@@ -29,6 +31,7 @@
 .main {
 	width: 1405px;
 	height: 500px;
+	margin: auto;
 	background-color: #BFD5C9; 
 	background-image: url(../img/izimg.jpeg);
 	background-attachment: fixed;
@@ -47,7 +50,8 @@ p {
 
 .textizakaya {
 	width: 1390px;
-	height: 400px;
+	height: 360px;
+	margin: auto;
 	background-color: #0000CD;
 	font-family: 'Abel-Regular', sans-serif;
 	text-transform: uppercase;
@@ -61,6 +65,7 @@ p {
 
 .copyright {
 	width: 1405px;
+	margin: auto;
 	background-color: #F5F3F0;
 	font-family: 'M PLUS 1p', sans-serif;
 	color: #0000CD;
