@@ -1,0 +1,120 @@
+@import url(reset.css);
+
+.head {
+	height: 20px;
+	width: 2500px;
+	display: block;
+	background-color: #00d8ff;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	padding: 40px 20px;
+	position: fixed;
+}
+
+.upper {
+	height: 140px;
+	background-color: #dddddd;
+}
+
+.body {
+	background-color: #dddddd;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	
+}
+
+.box.one {
+	width: 450px;
+	font-size: 19px;
+	font-weight: bold;
+	font-family: sans-serif;
+	box-shadow: 0px 0px 5px grey;
+	border-radius: 5px;
+	margin: auto;
+	
+}
+
+
+.box.two {
+	width: 450px;
+	font-size: 19px;
+	font-family: sans-serif;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px grey;
+	border-radius: 5px;
+	margin: auto;
+	
+}
+
+.box.three {
+	width: 450px;
+	font-size: 19px;
+	font-family: sans-serif;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px grey;
+	border-radius: 5px;
+	margin: auto;
+	
+}
+
+.box.four {
+	width: 450px;
+	font-size: 19px;
+	font-family: sans-serif;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px grey;
+	border-radius: 5px;
+	margin: auto;
+	
+}
+
+.box.one, .box.two, .box.three, .box.four {
+	margin: 15px;
+}
+
+h1 {
+	font-weight: bold;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+p {
+	font-size: 18px;
+	font-weight: lighter;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.upperfooter {
+	height: 40px;
+	background-color: #dddddd;
+}
+
+.foot {
+	background-color: #00d8ff;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 40px 20px;
+}
+
+@media screen and (min-width: 667px) {
+	.box.one, .box.two, .box.three, .box.four {
+	width: 60vw;
+
+}
+}
+
+@media screen and (max-width: 1904px) {
+	.box.one, .box.two, .box.three, .box.four {
+	width: 60vh;
+
+}
+}
+
+
+
